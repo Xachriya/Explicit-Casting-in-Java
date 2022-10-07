@@ -1,0 +1,13 @@
+
+
+public class Main
+{
+    public static void main(String[] args) {
+        int i1=2014;
+        String s1=Integer.toString(i1);
+        String s2="2014";
+        int i2=Integer.parseInt(s2);
+        System.out.println("year is "+s1);
+        System.out.println("year is "+i2);
+    }
+}
